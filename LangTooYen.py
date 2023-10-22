@@ -987,7 +987,8 @@ def Menulist():
         OMGImageFoodT = ck.CTkLabel(OMG, 
                                 text=subjoin[i][0], 
                                 text_color="#000000",
-                                font=("Segoe UI Bold", 15))
+                                font=("Segoe UI Bold", 15),
+                                wraplength=130)
         OMGImageFoodT.place(relx=0.2, rely=0.8, anchor=ck.CENTER)
         
       
@@ -1209,7 +1210,8 @@ def Menulist2():
         OMGImageFoodT = ck.CTkLabel(OMG, 
                                 text=searchlist[i][0], 
                                 text_color="#000000",
-                                font=("Segoe UI Bold", 15))
+                                font=("Segoe UI Bold", 15),
+                                wraplength=130)
         OMGImageFoodT.place(relx=0.2, rely=0.8, anchor=ck.CENTER)
         
       
@@ -1369,7 +1371,8 @@ def recommendation(n):
         ImageFoodT = ck.CTkLabel(frame, 
                                 text=join[i][0], 
                                 text_color="#000000",
-                                font=("Segoe UI Bold", 12))
+                                font=("Segoe UI Bold", 12), 
+                                wraplength = 100)
         ImageFoodT.place(relx=0.5, rely=0.82, anchor=ck.CENTER)
 
         frames.append(frame)  # Append the frame to the list
